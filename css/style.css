@@ -1,0 +1,527 @@
+/* ============= commmon css start ============== */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+.body{
+    font-family:"Poppins", serif;
+}
+/* ============= commmon css end ============== */
+
+/* ============= navber part start ============== */ 
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #9F9F9F;
+    margin-bottom: 34px;
+}
+.navbar-brand{
+    padding-top: 52px;
+    padding-bottom: 45px;
+    margin-right: 114px;
+}
+.nav-item{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+.me-auto {
+    margin-right: 5px !important;
+}
+.nav-item .nav-link{
+    margin-right: 30px;
+    color: #121212;
+}
+
+.form-control {
+    width: 500px;
+    padding: 20px 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #121212;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(69, 110, 214, 0.05);
+}
+
+.navbar-collapse i {
+    color: #121212;
+    position: relative;
+    top: 25px;
+    left: -50px;
+    font-size: 20px;
+}
+.navbar .icon{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    
+}
+.navbar .icon i{
+    position: relative;
+    top: 6px;
+    left: 0;
+    color: #456ED6;
+}
+
+/* ============= navber part end ============== */ 
+
+/* ============= chewckout part start ============== */ 
+
+#checkout{
+    padding-bottom: 116px;
+}
+#checkout .checkout-part{
+    column-gap: 110px;
+}
+
+#checkout .checkout-part h4{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+#checkout .checkout-part .top{
+    color: #121212; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+    margin-bottom: 11px;
+}
+#checkout .checkout-part .main {
+    display: flex;
+    column-gap: 20px;
+    margin: 0;
+}
+#checkout .checkout-part .main .left{
+    width: 40%;
+    height: 10px;
+    border-radius: 16px;
+    background: #456ED6;
+    padding: 0;
+    display: flex;
+    column-gap: 12px;
+}
+#checkout .checkout-part .main .right{
+    width: 40%;
+    height: 10px;
+    border-radius: 16px;
+    background: #9F9F9F;
+    display: flex;
+    column-gap: 12px;
+}
+#checkout .checkout-part .main .left .round{
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFF;
+    background: #456ED6;
+    margin-top: 17px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+#checkout .checkout-part .main .left .text{
+    color: #121212;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+    margin-top: 17px;
+}
+#checkout .checkout-part .main .right .round{
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    color: #456ED6;
+    border: 1px solid #456ED6;
+    margin-top: 17px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+#checkout .checkout-part .main .right .text{
+    color: #121212;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+    margin-top: 17px;
+}
+
+#checkout .checkout-part .box1{
+    margin-top: 83px;
+    width: 100%;
+    border-radius: 32px;
+    border: 1px solid #9F9F9F;
+    padding: 25px 50px 33px 33px;
+    display: flex;
+    column-gap: 24px;
+}
+#checkout .checkout-part .box1 .icon i{
+    font-size: 30px;
+    color: #456ED6;
+    
+}
+#checkout .checkout-part .box1 .text h5{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+#checkout .checkout-part .box1 .text h6{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+}
+#checkout .checkout-part .box1 .text p{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+    margin-top: 13px;
+    margin-bottom: 24px;
+    max-width: 590px;
+}
+#checkout .checkout-part .box1 .text button{
+    padding: 10px 10px;
+    background: #FFF;
+    border-radius: 30px;
+    color: #456ED6;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #9F9F9F;
+}
+
+
+
+
+#checkout .checkout-part .box2{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 32px;
+    border: 1px solid #9F9F9F;
+    padding: 25px 50px 33px 33px;
+    display: flex;
+    column-gap: 24px;
+}
+#checkout .checkout-part .box2 .icon i{
+    font-size: 30px;
+    color: #456ED6;
+    
+}
+#checkout .checkout-part .box2 .text h5{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#checkout .checkout-part .box2 .text h6{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+}
+#checkout .checkout-part .box2 .text .inner{
+    display: flex;
+    column-gap: 25px;
+}
+#checkout .checkout-part .box2 .text .inner .img{
+    margin-top: 25px;
+}
+#checkout .checkout-part .box2 .text .inner .details{
+    margin-top: 25px;
+}
+#checkout .checkout-part .box2 .text .inner .details h5{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#checkout .checkout-part .box2 .text .inner .details p{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+}
+#checkout .checkout-part .box2 .text .inner .details .small{
+    color: #121212;
+    opacity: 0.76;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 7px;
+}
+#checkout .checkout-part .box2 .text .inner .item{
+    margin-top: 25px;
+    padding-left: 170px;
+}
+#checkout .checkout-part .box2 .text .inner .item .last{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+#checkout .checkout-part .box3{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 32px;
+    border: 1px solid #9F9F9F;
+    padding: 25px 50px 33px 33px;
+    display: flex;
+    column-gap: 24px;
+}
+#checkout .checkout-part .box3 .icon i{
+    font-size: 30px;
+    color: #456ED6;
+    
+}
+#checkout .checkout-part .box3 .text{
+    width: 100%;
+}
+#checkout .checkout-part .box3 .text h5{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#checkout .checkout-part .box3 .text .form-select{
+    padding: 26px 30px;
+    margin-top: 30px;
+    color: #121212;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid #9F9F9F;
+}
+#checkout .checkout-part .box3 .text .inner2{
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 20px;
+    border: 1px solid #9F9F9F;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#checkout .checkout-part .box3 .text .inner2 .ileft h6{
+    color: #121212;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#checkout .checkout-part .box3 .text .inner2 .ileft .image2 {
+    display: flex;
+    column-gap: 26px;
+}
+#checkout .checkout-part .box3 .text .inner2 .ileft .image2 img{
+    width: 15px;
+    margin-top: 19px;
+}
+#checkout .checkout-part .box3 .text .inner2 .ileft .image2 .flaship{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.76;
+    margin-top: 19px;
+}
+#checkout .checkout-part .box3 .text .inner2 .iright{
+    display: flex;
+    column-gap: 19px;
+    align-items: start;
+}
+#checkout .checkout-part .box3 .text .inner2 .iright .rp{
+    color: #121212;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.76;
+}
+
+
+
+#checkout .checkout-part .rbox{
+    padding: 25px;
+    border-radius: 32px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+}
+
+#checkout .checkout-part .rbox .mini-box{
+    padding: 20px 89px 20px 20px;
+    border-radius: 20px;
+    border: 1px solid #9F9F9F;
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+#checkout .checkout-part .rbox .mini-box h5{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#checkout .checkout-part .rbox h6{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+#checkout .checkout-part .rbox .text{
+    position: relative;
+    align-items: center;
+}
+#checkout .checkout-part .rbox .text::after{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    border: 1px solid #9F9F9F;
+}
+#checkout .checkout-part .rbox .text .tleft{
+    display: flex;
+    justify-content: space-between;
+    color: #121212;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+    margin-bottom: 6px;
+}
+
+#checkout .checkout-part .rbox .ttrp {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#checkout .checkout-part .rbox .ttrp .tleft .total{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+#checkout .checkout-part .rbox .ttrp .tright .totalrp{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#checkout .checkout-part .rbox .ttrp .tright{
+    text-align: right;
+}
+#checkout .checkout-part .rbox .button{
+    padding: 21px 0;
+    border-radius: 20px;
+    background: #456ED6;
+    text-align: center;
+    margin-top: 18px;
+}
+#checkout .checkout-part .rbox .button a{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============= chewckout part end ============== */ 
+
+

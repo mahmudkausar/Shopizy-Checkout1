@@ -1,0 +1,271 @@
+@media (max-width:575px){
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+
+    .navbar-toggler {
+        border: 0
+    }
+
+    #checkout {
+        padding-bottom: 40px;
+    }
+    #checkout .checkout-part h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    #checkout .checkout-part .top {
+        font-size: 14px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #checkout .checkout-part .main .left .round {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        margin-top: 17px;
+        font-size: 12px;
+    }
+    #checkout .checkout-part .main .left .text {
+        font-size: 13px;
+    }
+    #checkout .checkout-part .main .left {
+        column-gap: 7px;
+    }
+
+    #checkout .checkout-part .main .right .round {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        margin-top: 17px;
+        font-size: 12px;
+    }
+
+    #checkout .checkout-part .main .right {
+        padding: 0;
+    }
+    #checkout .checkout-part .main .right .text {
+        font-size: 13px;
+    }
+
+    #checkout .checkout-part .box1 {
+        margin-top: 45px;
+        border-radius: 15px;
+        padding:15px;
+        column-gap: 10px;
+    }
+
+    #checkout .checkout-part .box1 .icon i {
+        font-size: 20px;
+    }
+    #checkout .checkout-part .box1 .text h5 {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+
+    #checkout .checkout-part .box1 .text h6 {
+        font-size: 14px;
+    }
+
+    #checkout .checkout-part .box1 .text p {
+        font-size: 13px;
+        margin-top: 4px;
+        margin-bottom: 13px;
+        max-width: 449px;
+    }
+
+    #checkout .checkout-part .box1 .text button {
+        padding: 6px 10px;
+        border-radius: 13px;
+        font-size: 13px;
+    }
+    #checkout .checkout-part .box2 {
+        margin-top: 15px;
+        border-radius: 15px;
+        padding:15px;
+        column-gap: 10px;
+    }
+    #checkout .checkout-part .box2 .icon i {
+        font-size: 20px;;
+    }
+    #checkout .checkout-part .box2 .text h5 {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+
+    #checkout .checkout-part .box2 .text h6 {
+        font-size: 14px;
+    }
+    #checkout .checkout-part .box2 .text .inner {
+        column-gap: 10px;
+    }
+    #checkout .checkout-part .box2 .text .inner .img {
+        margin-top: 10px;
+    }
+    #checkout .checkout-part .box2 .text .inner .img img{
+        width: 50px;
+    }
+    #checkout .checkout-part .box2 .text .inner .item {
+        margin-top: 25px;
+        padding-left: 0px;
+    }
+
+    #checkout .checkout-part .box2 .text .inner .details {
+        margin-top: 0;
+    }
+    #checkout .checkout-part .box2 .text .inner .details h5 {
+        font-size: 13px;
+    }
+    #checkout .checkout-part .box2 .text .inner .item .last {
+        font-size: 13px;
+    }
+    #checkout .checkout-part .box2 .text .inner .details p {
+        font-size: 12px;
+        margin-top: 6px;
+    }
+
+    #checkout .checkout-part .box2 .text .inner .details .small {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    #checkout .checkout-part .box2 .text .inner .item {
+        margin-top: 45px;
+    }
+    #checkout .checkout-part .box3 {
+        margin-top: 15px;
+        border-radius: 15px;
+        padding: 15px 15px 15px 15px;
+        column-gap: 10px;
+    }
+    #checkout .checkout-part .box3 .icon i {
+        font-size: 20px;
+    }
+
+    #checkout .checkout-part .box3 .text h5 {
+        font-size: 17px;
+    }
+
+    #checkout .checkout-part .box3 .text .form-select {
+        padding: 5px 10px;
+        margin-top: 15px;
+        font-size: 13px;
+        border-radius: 13px;;
+    }
+    #checkout .checkout-part .box3 .text .inner2 {
+        padding: 5px 10px;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+
+    #checkout .checkout-part .box3 .text .inner2 .ileft h6 {
+        font-size: 14px;
+    }
+    #checkout .checkout-part .box3 .text .inner2 .ileft .image2 img {
+        width: 15px;
+        margin-top: 10px;
+    }
+    #checkout .checkout-part .box3 .text .inner2 .ileft .image2 {
+       display: none;
+    }
+
+    #checkout .checkout-part .box3 .text .inner2 .ileft .image2 .flaship {
+        display: none;
+    }
+    #checkout .checkout-part .box3 .text .inner2 .iright {
+        column-gap: 13px;
+    }
+    #checkout .checkout-part .box3 .text .inner2 .iright .rp {
+        font-size: 12px;
+    }
+    #checkout .checkout-part .box3 .text .inner2 .iright i {
+        font-size: 13px;
+    }
+
+    #checkout .checkout-part .rbox {
+        padding: 15px;
+        border-radius: 15px;
+        margin-top: 15px;
+    }
+
+    #checkout .checkout-part .rbox .mini-box img{
+        width: 25px;
+    }
+    #checkout .checkout-part .rbox .mini-box h5 {
+        font-size: 16px;
+    }
+
+    #checkout .checkout-part .rbox .mini-box {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px 10px 0px;
+        border-radius: 15px;
+        column-gap: 10px;
+    }
+
+    #checkout .checkout-part .rbox h6 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    #checkout .checkout-part .rbox .text .tleft {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    #checkout .checkout-part .rbox .ttrp {
+        margin-top: 12px;
+    }
+    #checkout .checkout-part .rbox .ttrp .tleft .total {
+        font-size: 14px;
+    }
+    #checkout .checkout-part .rbox .ttrp .tright .totalrp {
+        font-size: 14px;
+    }
+    #checkout .checkout-part .rbox .button {
+        padding: 8px 0;
+        border-radius: 12px;
+        margin: 0 auto;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #checkout .checkout-part .rbox .button a {
+        font-size: 14px;;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================ */
+}
